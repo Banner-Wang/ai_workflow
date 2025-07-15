@@ -1,0 +1,44 @@
+# ============================================================================
+# 生产环境依赖 (Production Dependencies)
+# ============================================================================
+
+# Web Framework - 使用最新版本
+fastapi[standard]==0.115.13
+uvicorn[standard]>=0.32.1
+
+# Database & ORM - 使用最新版本
+sqlalchemy>=2.0.36
+asyncmy>=0.2.10
+alembic>=1.13.3
+
+# Task Queue & Redis - 使用最新版本
+arq>=0.26.0
+redis>=5.2.1
+
+# Data Validation & Configuration - 使用最新版本
+pydantic>=2.10.4
+pydantic-settings>=2.7.0
+
+# ============================================================================
+# 开发环境依赖 (Development Dependencies)
+# ============================================================================
+
+# Testing Framework - 使用最新版本
+pytest>=8.3.4
+pytest-asyncio>=0.24.0
+pytest-cov>=6.0.0
+httpx>=0.28.1
+
+# Code Quality & Formatting - 使用最新版本
+black>=24.12.0
+isort>=5.13.2
+flake8>=7.1.1
+
+# Type Checking - 使用最新版本
+mypy>=1.15.0
+
+# Environment & Configuration - 使用最新版本
+python-dotenv>=1.0.1
+
+# Development Utilities - 使用最新版本
+pre-commit>=4.0.1 
